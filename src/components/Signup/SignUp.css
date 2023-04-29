@@ -1,0 +1,68 @@
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+   border: 2px solid rgb(214, 143, 73);
+     margin-left: auto;
+     margin-right: auto;
+     width: 40%;
+    padding: 30px;
+    box-shadow: -3px 4px 4px 3px rgb(255, 162, 0);
+    margin-bottom: 10px;
+  }
+  
+  label {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  input[type="email"],
+  input[type="password"] {
+    padding: 10px;
+     width: 60%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="submit"] {
+    background-color: #1e90ff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .google-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .google-button img {
+    margin-right: 10px;
+  }
+  
+  .google-button a {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 18px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .Login-title{
+    font-size: 40px;
+  }
